@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "iknu";
+    src: url(../font/Iknu.otf) format("opentype");
+}
+@font-face {
+    font-family: "iknu";
+    src: url("../font/Iknu.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "movu";
+    src: url(../font/Movu.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "parabole";
+    src: url(../font/parabole/Parabole.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "suisse-intl-regular";
+    src: url(../font/SuisseIntlRegular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "satoshi-regular";
+    src: url(../font/satoshi/SatoshiRegular.otf) format("opentype");
+}

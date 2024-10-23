@@ -1,0 +1,31 @@
+{
+  "name": "offcut",
+  "module": "src/public/app.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.0",
+    "@types/fast-levenshtein": "^0.0.4",
+    "@types/fbemitter": "^2.0.35",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "better-auth": "^0.4.9-beta.11",
+    "express": "^4.21.1",
+    "fast-levenshtein": "^3.0.0",
+    "fbemitter": "^3.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "react-spring": "^9.7.4",
+    "redis": "^4.7.0",
+    "xstate": "^5.18.2"
+  }
+}
