@@ -7,7 +7,7 @@ import {Transpiler} from "@host";
 import {assert} from "@host";
 import {join} from "path";
 
-async function reboot(app: App, delay: number): Promise<void> {
+async function rebootOnPanic(app: App, delay: number): Promise<void> {
     const seconds = (ms: number) => ms / 1000;
 
     while (true) {
@@ -389,7 +389,7 @@ function App(): App {
                         let user: User = User({
                             username: request.body.username,
                             password: request.body.password,
-                            settings: request.body.password,
+                            settings: UserSettings(request.body.settings.styleTags),
                             database: database
                         });
                         await user.signUp();
@@ -415,7 +415,4 @@ function App(): App {
 
 
 
-(async () => {
-    let app: App = App();
-    await reboot(app, 60000);
-})();
+await rebootOnPanic(App(), 60000);
