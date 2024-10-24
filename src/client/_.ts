@@ -8,6 +8,7 @@ export function render(app: Web.React.ReactNode): void {
 
 export * from "@common";
 export {default as React} from "react";
+export {default as Axios} from "axios";
 export * as ReactDomClient from "react-dom/client";
 export * as ReactRouterDom from "react-router-dom";
 export * as Spring from "react-spring";

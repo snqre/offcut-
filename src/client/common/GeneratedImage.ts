@@ -1,17 +1,17 @@
 import * as Common from "@common";
 
-export type GenImageConstructorPayload = {
+export type GeneratedImageConstructorPayload = {
     src: string;
     tags: string[];
     products: Common.Product[];
 };
 
-export type GenImage = {
+export type GeneratedImage = {
     src(): string;
     tags(): string[];
     products(): Common.Product[];
 };
-export function GenImage(_payload: GenImageConstructorPayload): GenImage {
+export function GeneratedImage(_payload: GeneratedImageConstructorPayload): GeneratedImage {
     let _src: string;
     let _tags: string[];
     let _products: Common.Product[];

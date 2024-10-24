@@ -21,4 +21,6 @@ export function assert(condition: boolean, data?: Error | string): asserts condi
     throw data;
 }
 
+export * as ArrayUtil from "./ArrayUtil";
+export * from "./GeneratedImage";
 export * from "./Product";
